@@ -1,20 +1,19 @@
 # foundry-release-bower [![Build status](https://travis-ci.org/twolfson/foundry-release-bower.png?branch=master)](https://travis-ci.org/twolfson/foundry-release-bower)
 
-bower release library for foundry
+[bower][] release library for [foundry][].
 
-## Getting Started
-Install the module with: `npm install foundry-release-bower`
+This is plugin updates the [semver][] in a `bower.json` via [foundry][], a plugin based release management library.
 
-```javascript
-var foundry_release_bower = require('foundry-release-bower');
-foundry_release_bower.awesome(); // "awesome"
-```
+[bower]: http://bower.io/
+[foundry]: https://github.com/twolfson/foundry
+[semver]: http://semver.org/
 
 ## Documentation
-_(Coming soon)_
+This library was build to match the [foundry plugin specification][spec]. Documentation can be found at:
 
-## Examples
-_(Coming soon)_
+https://github.com/twolfson/foundry-release-spec
+
+[spec]: https://github.com/twolfson/foundry-release-spec
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint via [grunt](https://github.com/gruntjs/grunt) and test via `npm test`.
