@@ -2,7 +2,7 @@
 
 [bower][] release library for [foundry][].
 
-This is plugin updates the [semver][] in a `bower.json` via [foundry][], a plugin based release management library.
+This plugin updates the [semver][] in a `bower.json` via [foundry][], a plugin based release management library.
 
 [bower]: http://bower.io/
 [foundry]: https://github.com/twolfson/foundry
