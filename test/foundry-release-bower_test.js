@@ -5,11 +5,11 @@ var bowerRelease = require('../');
 var fixtureUtils = require('./utils/fixtures');
 
 // Define our test
-describe('Setting the version', function () {
+describe('Updating files', function () {
   describe('in a bower module', function () {
     var fixtureDir = fixtureUtils.fixtureDir('bower');
     before(function release (done) {
-      bowerRelease.setVersion({
+      bowerRelease.updateFiles({
         version: '0.1.0',
         message: 'Release 0.1.0',
         description: null
