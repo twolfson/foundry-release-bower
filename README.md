@@ -2,18 +2,24 @@
 
 [bower][] release library for [foundry][].
 
-This plugin updates the [semver][] in a `bower.json` via [foundry][], a plugin based release management library.
+This command updates the [semver][] in a `bower.json` via [foundry][], a modular release management library.
 
 [bower]: http://bower.io/
 [foundry]: https://github.com/twolfson/foundry
 [semver]: http://semver.org/
 
 ## Documentation
-This library was build to match the [foundry plugin specification][spec]. Documentation can be found at:
+This library was build to match the [foundry release specification][spec] and is written on top of [foundry-release-base][]. Documentation can be found at:
 
 https://github.com/twolfson/foundry-release-spec
 
+https://github.com/twolfson/foundry-release-base
+
 [spec]: https://github.com/twolfson/foundry-release-spec
+[foundry-release-base]: https://github.com/twolfson/foundry-release-base
+
+### Actions
+- On `update-files`, we update the `version` in `bower.json`
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint via [grunt](https://github.com/gruntjs/grunt) and test via `npm test`.
