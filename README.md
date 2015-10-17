@@ -20,6 +20,7 @@ https://github.com/twolfson/foundry-release-base
 
 ### Actions
 - On `update-files`, we update the `version` in `bower.json`
+- On `register`, we prompt for a `git://` URL and register to the `bower` repository
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint via [grunt](https://github.com/gruntjs/grunt) and test via `npm test`.
