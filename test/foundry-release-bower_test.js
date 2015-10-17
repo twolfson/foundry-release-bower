@@ -1,6 +1,8 @@
 // Load in dependencies
 var fs = require('fs');
 var expect = require('chai').expect;
+var sinon = require('sinon');
+var shell = require('shelljs');
 var bowerRelease = require('../');
 var fixtureUtils = require('./utils/fixtures');
 
