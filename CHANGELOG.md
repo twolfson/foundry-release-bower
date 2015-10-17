@@ -1,4 +1,6 @@
 # foundry-release-bower changelog
+2.1.0 - Added `register` support
+
 2.0.0 - Added CLI support to match `2.0.0` spec
 
 1.1.0 - Added `specVersion` to match `1.1.0` spec
