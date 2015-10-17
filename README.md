@@ -2,7 +2,7 @@
 
 [bower][] release library for [foundry][].
 
-This command updates the [semver][] in a `bower.json` via [foundry][], a modular release management library.
+This command updates the [semver][] in a `bower.json` and handles `bower` registration via [foundry][], a modular release management library.
 
 [bower]: http://bower.io/
 [foundry]: https://github.com/twolfson/foundry
