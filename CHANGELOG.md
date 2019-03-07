@@ -1,4 +1,6 @@
 # foundry-release-bower changelog
+2.1.1 - Upgraded to shell-quote@1.6.1 to fix GitHub vulnerability warning
+
 2.1.0 - Added `register` support
 
 2.0.0 - Added CLI support to match `2.0.0` spec
